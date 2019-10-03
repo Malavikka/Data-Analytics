@@ -4,12 +4,11 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pylab import * # For global titile using fig.suptitle
-
 import os
-print(os.listdir("../input"))
+print(os.listdir("C:/Users/kevin/Desktop/PES University/Junior Year/DA/Assignment 1"))
 
 # Reading 2009 candidate dataset
-LS09Cand = pd.read_csv('../input/LS2009Candidate.csv')
+LS09Cand = pd.read_csv('C:/Users/kevin/Desktop/PES University/Junior Year/DA/Assignment 1/LS2009Candidate.csv')
 print(LS09Cand.shape)
 LS09Cand.head()
 
