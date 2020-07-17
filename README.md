@@ -1,4 +1,4 @@
-# Data-Analytics
+# Data Analytics
 
 UE17CS322
 Prof. Nagegowda KS
